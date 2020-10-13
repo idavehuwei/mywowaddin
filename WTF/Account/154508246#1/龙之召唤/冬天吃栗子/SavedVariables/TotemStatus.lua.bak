@@ -1,0 +1,46 @@
+
+TS_Settings = {
+	["FontSize"] = 12.5,
+	["TotemDestroyedSound"] = false,
+	["Color"] = {
+		["B"] = 0,
+		["G"] = 0,
+		["R"] = 0,
+	},
+	["Transparency"] = 0,
+	["MainFrameY"] = -5.7521276473999,
+	["MainFrameX"] = 1231.58178710938,
+	["Font"] = "Fonts/FRIZQT__.ttf",
+	["ShowOuterFrame"] = true,
+	["ShowTotemExpiryAlarm"] = true,
+	["UIScale"] = 0.800000011920929,
+	["ShowTotemFrames"] = true,
+	["ShowTooltip"] = true,
+	["TotemExpirySound"] = false,
+}
+TS_ActiveTotems = {
+	{
+		["AlarmFlags"] = 0,
+		["SpellId"] = 0,
+		["Guid"] = "",
+		["StartTime"] = 0,
+	}, -- [1]
+	{
+		["AlarmFlags"] = 0,
+		["SpellId"] = 0,
+		["Guid"] = "",
+		["StartTime"] = 0,
+	}, -- [2]
+	{
+		["AlarmFlags"] = 0,
+		["SpellId"] = 0,
+		["Guid"] = "",
+		["StartTime"] = 0,
+	}, -- [3]
+	{
+		["AlarmFlags"] = 0,
+		["SpellId"] = 0,
+		["Guid"] = "",
+		["StartTime"] = 0,
+	}, -- [4]
+}

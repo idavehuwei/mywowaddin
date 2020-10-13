@@ -1,0 +1,7 @@
+## Interface: 11305
+## Title: FasterLooting
+## Title-zhCN: 自动拾取加速
+## Author: cannon
+## Notes: FasterLooting
+## Version: 1.1.2
+FasterLooting.lua

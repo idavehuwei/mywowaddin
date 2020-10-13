@@ -1,0 +1,60 @@
+
+gGroupCalendar_Settings = {
+	["龙之召唤"] = {
+		["GuildRanks"] = {
+			["绣水财团"] = {
+				"官员", -- [1]
+				"精英", -- [2]
+				"地精", -- [3]
+				"商人", -- [4]
+				[0] = "会长",
+			},
+		},
+	},
+	["Debug"] = false,
+	["SquareMinimap"] = "OFF",
+	["IconPos"] = -172,
+	["Format"] = 1,
+	["龙之召唤_Lêlantos"] = {
+		["UI"] = {
+			["DefaultRole"] = "U",
+			["LockWindow"] = false,
+		},
+		["Channel"] = {
+			["AutoConfig"] = true,
+		},
+		["Security"] = {
+			["Player"] = {
+			},
+			["TrustAnyone"] = true,
+			["TrustGuildies"] = false,
+			["MinTrustedRank"] = 1,
+		},
+	},
+	["ShowMinimap"] = "ON",
+}
+gGroupCalendar_Database = {
+	["Databases"] = {
+		["龙之召唤_Lêlantos"] = {
+			["PlayerClassCode"] = "H",
+			["Guild"] = "绣水财团",
+			["PlayerLevel"] = 40,
+			["IsPlayerOwned"] = true,
+			["UserName"] = "Lêlantos",
+			["LocalUsers"] = {
+			},
+			["Events"] = {
+			},
+			["PlayerRaceCode"] = "?",
+			["CurrentEventID"] = 0,
+			["Realm"] = "龙之召唤",
+		},
+	},
+	["Format"] = 12,
+}
+GroupCalendarDB = nil
+gGroupCalendar_MiniMapSettings = {
+	["shown"] = true,
+	["minimapPos"] = 218,
+	["locked"] = false,
+}

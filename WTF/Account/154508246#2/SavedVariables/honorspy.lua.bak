@@ -1,0 +1,12 @@
+
+HonorSpyDB = {
+	["profileKeys"] = {
+		["秋天的栗子 - 法拉克斯"] = "Default",
+	},
+	["factionrealm"] = {
+		["Horde - 法拉克斯"] = {
+			["last_reset"] = 1588629600,
+			["actualCommPrefix"] = "HonorSpy4",
+		},
+	},
+}

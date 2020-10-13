@@ -1,0 +1,17 @@
+
+PRD_minimapButtonConfig = 0
+PRD_settingsConfig = {
+	["showPercentage"] = false,
+	["showMinimap"] = true,
+	["strataLevel"] = 1,
+	["scale"] = 1,
+	["width"] = 100,
+	["dynamicHealthColor"] = true,
+	["verticalPosition"] = -130,
+	["hideHealthBar"] = false,
+	["showBorder"] = true,
+	["hideInCombat"] = false,
+	["showReversePercentage"] = false,
+	["opacityOOC"] = 0.200000002980232,
+}
+PRD_logCount = 1

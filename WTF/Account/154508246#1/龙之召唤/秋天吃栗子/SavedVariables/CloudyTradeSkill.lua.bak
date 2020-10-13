@@ -1,0 +1,18 @@
+
+CTradeSkillDB = {
+	["Panel"] = "裁缝",
+	["Tabs"] = {
+		[2259] = true,
+		[3908] = true,
+	},
+	["Bookmarks"] = {
+		["裁缝"] = {
+		},
+		["炼金术"] = {
+		},
+	},
+	["Tooltip"] = false,
+	["Level"] = true,
+	["Unlock"] = false,
+	["Size"] = 22,
+}

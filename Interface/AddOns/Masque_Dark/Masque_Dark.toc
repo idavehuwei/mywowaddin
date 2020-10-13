@@ -1,0 +1,14 @@
+## Interface: 60200
+## Title: Masque_Dark
+## Version: 3.1.0
+## Notes: Square Dark, Alliance and Horde buttons for Masque.
+## X-Author: jeffy162 
+## Credits: StormFX and JJ Sheets for giving us Masque (formerly ButtonFacade).
+## RequiredDeps: Masque
+## X-WoWI-ID: 20412
+
+md.lua
+
+
+
+

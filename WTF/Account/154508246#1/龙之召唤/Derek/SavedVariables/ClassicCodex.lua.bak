@@ -1,0 +1,43 @@
+
+CodexConfig = {
+	["showUnitTooltip"] = true,
+	["showHighLevel"] = true,
+	["bossMarkerSize"] = 25,
+	["colorBySpawn"] = true,
+	["autoAccept"] = false,
+	["showFestival"] = false,
+	["trackingMethod"] = 1,
+	["minimumDropChance"] = 2,
+	["showLowLevel"] = true,
+	["showTrackingMethodDropdown"] = true,
+	["minimapButton"] = true,
+	["currentQuestGivers"] = true,
+	["allQuestGivers"] = true,
+	["alwaysShowId"] = false,
+	["nameplateIcon"] = false,
+	["spawnMarkerSize"] = 15,
+	["zoneMapIcon"] = true,
+	["miniMapIcon"] = true,
+	["autoTurnin"] = false,
+	["continentIcon"] = false,
+	["questMarkerSize"] = 15,
+}
+CodexHiddenQuests = {
+}
+CodexBrowserFavorites = {
+	["items"] = {
+	},
+	["objets"] = {
+	},
+	["quests"] = {
+	},
+	["units"] = {
+	},
+}
+CodexColors = {
+	["雷戈制奴者"] = {
+		0.623529411764706, -- [1]
+		0.509803921568627, -- [2]
+		0.952941176470588, -- [3]
+	},
+}

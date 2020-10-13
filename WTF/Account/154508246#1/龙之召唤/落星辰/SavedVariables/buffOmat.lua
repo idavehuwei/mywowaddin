@@ -1,0 +1,2 @@
+
+buffOmatDBChar = nil

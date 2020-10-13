@@ -1,0 +1,26 @@
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]冬天吃[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000004 "复活" "136077"
+#showtooltip 先祖之魂
+/cast 先祖之魂
+/s 》》%t《《正在复活！
+/ra 》》%t《《正在复活！ 
+END
+VER 3 0000000001000003 "打断" "132091"
+/脚本 local m={GetMacroInfo("combat")}local a,b,c,d=loadstring(m[3])()a("frame","F")F:RegisterEvent(b)F:SetScript("OnEvent",function()C={c()}m=C[2]:find("PT")and C[4]==UnitGUID("player")and d("打断"..C[9].."的 "..C[16])end)
+/stopcasting
+/施放 地震术(等级 1)
+END
+VER 3 0000000001000005 "法力" "136099"
+/cast 法力之潮图腾
+/P 法力之潮已开,16秒倒数!du 治疗靠近恢复法力!
+/s 法力之潮已开,16秒倒数!du 治疗靠近恢复法力!
+/in 13 /RA 还剩3秒……zhi
+/in 14 /RA 还剩2秒……
+/in 15 /RA 还剩1秒……
+/in 16 /RA 结束……
+END

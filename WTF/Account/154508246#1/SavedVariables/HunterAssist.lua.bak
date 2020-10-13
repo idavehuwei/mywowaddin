@@ -1,0 +1,7 @@
+
+zFeeder = {
+	["Texture"] = 133979,
+	["Count"] = 41,
+	["Item"] = 8953,
+	["Link"] = "|cffffffff|Hitem:8953::::::::60:::::::|h[风干的香蕉]|h|r",
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AddOnList version="1.0" url="http://wowui.178.com/" purl="http://wowui.178.com/">
+    <AddOn displayName="[怀旧专用] Trinket Menu：饰品管理（非官方更新）" img="/data/wow/1105/ui_logo.jpg" info="ui/1105" name="[怀旧专用] Trinket Menu：饰品管理（非官方更新）" package="down/1105/13682/TrinketMenu.zip" update="2019-08-09" version="1.0" />
+</AddOnList>

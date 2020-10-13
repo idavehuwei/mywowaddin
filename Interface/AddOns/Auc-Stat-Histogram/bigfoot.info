@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AddOnList version="1.0" url="http://wowui.178.com/" purl="http://wowui.178.com/">
+    <AddOn displayName="[怀旧专用] Auctioneer：拍卖师套件" img="/data/wow/1213/ui_logo.jpg" info="ui/1213" name="[怀旧专用] Auctioneer：拍卖师套件" package="down/1213/14476/AuctioneerSuite-8.2_.6470_.zip" update="2019-11-06" version="8.2.6470" />
+</AddOnList>

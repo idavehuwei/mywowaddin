@@ -1,0 +1,50 @@
+
+SpyPerCharDB = {
+	["KOSData"] = {
+	},
+	["IgnoreData"] = {
+	},
+	["PlayerData"] = {
+		["霸道大不点"] = {
+			["mapID"] = 1446,
+			["guild"] = "超越",
+			["zone"] = "塔纳利斯",
+			["mapY"] = 0.27,
+			["class"] = "MAGE",
+			["isEnemy"] = true,
+			["race"] = "人类",
+			["isGuess"] = false,
+			["subZone"] = "加基森",
+			["mapX"] = 0.52,
+			["level"] = 60,
+			["time"] = 1576249808,
+			["name"] = "霸道大不点",
+		},
+		["就是喜欢你"] = {
+			["mapID"] = 1446,
+			["zone"] = "塔纳利斯",
+			["mapY"] = 0.27,
+			["class"] = "MAGE",
+			["isEnemy"] = true,
+			["mapX"] = 0.52,
+			["isGuess"] = true,
+			["subZone"] = "加基森",
+			["time"] = 1576249269,
+			["race"] = "Human",
+			["name"] = "就是喜欢你",
+		},
+		["你是谁啊"] = {
+			["mapID"] = 1446,
+			["zone"] = "塔纳利斯",
+			["mapY"] = 0.4,
+			["class"] = "HUNTER",
+			["isEnemy"] = true,
+			["mapX"] = 0.5,
+			["isGuess"] = true,
+			["subZone"] = "深沙平原",
+			["time"] = 1576250159,
+			["name"] = "你是谁啊",
+		},
+	},
+	["version"] = "1.1",
+}

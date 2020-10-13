@@ -1,0 +1,33 @@
+
+CTradeSkillDB = {
+	["Panel"] = "炼金术",
+	["Bookmarks"] = {
+		["烹饪"] = {
+		},
+		["炼金术"] = {
+		},
+		["急救"] = {
+		},
+	},
+	["Tooltip"] = false,
+	["Unlock"] = false,
+	["Tabs"] = {
+		[818] = true,
+		[2259] = true,
+		[7924] = true,
+		[3273] = true,
+		[3101] = true,
+		[3274] = true,
+		[3102] = true,
+		[11611] = true,
+		[3464] = true,
+		[18260] = true,
+		[2550] = true,
+		[3413] = true,
+		[10846] = true,
+	},
+	["OffsetY"] = 749.333312988281,
+	["Level"] = true,
+	["OffsetX"] = 0,
+	["Size"] = 22,
+}

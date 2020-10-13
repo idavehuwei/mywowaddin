@@ -1,0 +1,10 @@
+VER 3 0000000001000003 "test" "132112"
+/cast 邪恶攻击
+/script x={"星形","圆形","菱形","三角","月亮","方块","十字","骷髅","无"}j=IsModifiedClick()i=GetRaidTargetIndex(j and"focus"or"target")SendChatMessage("我对---》".. (j and"%f[{"or"%t[{")..x[i and i or 9].."}]《,释放了 技能 邪恶攻击： ","YELL")
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]风尘叹[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

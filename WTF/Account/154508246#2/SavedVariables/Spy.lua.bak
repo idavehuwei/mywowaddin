@@ -1,0 +1,34 @@
+
+SpyDB = {
+	["kosData"] = {
+		["法拉克斯"] = {
+			["Horde"] = {
+				["秋天的栗子"] = {
+				},
+			},
+		},
+	},
+	["removeKOSData"] = {
+		["法拉克斯"] = {
+			["Horde"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["秋天的栗子 - 法拉克斯"] = "秋天的栗子 - 法拉克斯",
+	},
+	["profiles"] = {
+		["秋天的栗子 - 法拉克斯"] = {
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["AppendUnitNameCheck"] = true,
+			["MainWindowVis"] = false,
+			["AppendUnitKoSCheck"] = true,
+		},
+	},
+}

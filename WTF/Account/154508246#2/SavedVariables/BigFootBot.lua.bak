@@ -1,0 +1,30 @@
+
+ItemSourceDB = {
+}
+ObjectLocationDB = {
+}
+CreatureLocationDB = {
+}
+CreatureDB = {
+}
+QuestDB = {
+}
+QuestCompleteDB = {
+}
+QuestEventDB = {
+}
+SkillSourceDB = {
+}
+BigFootBot_Version = {
+}
+BigFootBot_Info = nil
+PlayersDB = {
+}
+UtilDB = {
+}
+NPCMarkCollectionDB = {
+}
+BigFootBot_collectData = {
+}
+SpamChatDB = {
+}

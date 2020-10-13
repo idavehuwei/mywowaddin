@@ -1,0 +1,33 @@
+
+alaTalentEmuSV = {
+	["__harm"] = {
+	},
+	["set"] = {
+		["inspectButtonKey"] = "ALT",
+		["inspectButtonOnUnitFrame"] = false,
+		["minimap"] = false,
+		["show_equipment"] = true,
+		["singleFrame"] = true,
+		["win_style"] = "ala",
+		["max_recv_msg"] = 16,
+		["style"] = 1,
+		["inspect_pack"] = false,
+		["supreme"] = false,
+		["credible"] = false,
+		["talents_in_tip"] = false,
+		["minimapPos"] = 185,
+	},
+	["var"] = {
+		["savedTalent"] = {
+		},
+	},
+	["_version"] = 200615,
+	["__exec"] = {
+		["fire"] = {
+		},
+		["func"] = {
+		},
+		["init"] = {
+		},
+	},
+}

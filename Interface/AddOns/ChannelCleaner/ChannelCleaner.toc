@@ -1,0 +1,14 @@
+## Interface: 11302
+
+## Title: ChannelCleaner
+## Title-zhCN: ChannelCleaner
+
+## Notes: Channel Cleaner addon.
+## Notes-zhCN: 聊天频道过滤
+
+## Version: 1.0
+## Author: 云天
+## SavedVariables: ChannelCleanerDB
+
+Locale.lua
+ChannelCleaner.lua

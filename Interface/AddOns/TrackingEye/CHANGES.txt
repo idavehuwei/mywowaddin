@@ -1,0 +1,40 @@
+tag 0e0d9bd38642d1b53c8fad791dedacc1ad2a3ce1 v2.0.0
+Author:	Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:	Thu Feb 20 23:25:39 2020 +0000
+
+commit 9cabddd73b65678c96b755fb617d03bd23cb4d27
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:07:11 2020 +0000
+
+    Interface bump.
+
+commit e2bdaa5541707d6fe35572163887935400953ecb
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:10:40 2020 +0000
+
+    Importing LibUIDropDownMenu.
+
+commit 9cabddd73b65678c96b755fb617d03bd23cb4d27
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:07:11 2020 +0000
+
+    Interface bump.
+
+commit 70c9a9c6717c2bd67cc7facc560d985765fb9604
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:06:51 2020 +0000
+
+    Version number bump and updated README with targeting menu notes.
+
+commit 70d5651c78f6df2b09325d38a184ef8fdb4f5c9e
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:04:44 2020 +0000
+
+    Target selection menu added.
+
+commit bffbfb0edf68e64ec09185bf5633d0ae3d4b1036
+Author: Linden Ryuujin <Linden.Ryuujin@gmail.com>
+Date:   Thu Feb 20 23:03:11 2020 +0000
+
+    Added Secure button support to LibUIDropDownMenu.
+

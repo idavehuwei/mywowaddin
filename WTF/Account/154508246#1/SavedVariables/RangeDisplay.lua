@@ -1,0 +1,40 @@
+
+RangeDisplayDB3 = {
+	["profileKeys"] = {
+		["Helios - 龙之召唤"] = "Default",
+		["叹风尘 - 龙之召唤"] = "Default",
+		["秋天吃栗子 - 龙之召唤"] = "Default",
+		["冬天吃栗子 - 龙之召唤"] = "Default",
+		["莫起风 - 龙之召唤"] = "Default",
+		["Shop - 龙之召唤"] = "Default",
+		["Global - 龙之召唤"] = "Default",
+		["Lêlantos - 龙之召唤"] = "Default",
+		["五月二十七 - 龙之召唤"] = "Default",
+		["落星辰 - 龙之召唤"] = "Default",
+		["风尘叹 - 龙之召唤"] = "Default",
+		["Derek - 龙之召唤"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["locked"] = true,
+			["units"] = {
+				["pet"] = {
+				},
+				["playertarget"] = {
+					["point"] = "TOP",
+					["relPoint"] = "TOP",
+					["y"] = -138.636947631836,
+					["x"] = 198.859512329102,
+				},
+				["focus"] = {
+				},
+				["arena2"] = {
+				},
+				["arena5"] = {
+				},
+				["arena4"] = {
+				},
+			},
+		},
+	},
+}

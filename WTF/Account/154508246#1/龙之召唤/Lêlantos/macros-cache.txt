@@ -1,0 +1,70 @@
+VER 3 0000000001000003 "1" "INV_MISC_QUESTIONMARK"
+/stopmacro [combat]
+/目标 索
+/targetlastenemy
+END
+VER 3 0000000001000004 "2" "INV_MISC_QUESTIONMARK"
+/stopmacro [combat]
+/目标 战
+/targetlastenemy
+END
+VER 3 0000000001000005 "3" "INV_MISC_QUESTIONMARK"
+/stopmacro [combat]
+/targetenemy
+/targetlastenemy
+/cast 猎人印记
+/petattack
+END
+VER 3 0000000001000006 "4" "INV_MISC_QUESTIONMARK"
+/target pettarget
+/cleartarget [help][dead][noexists]
+/stopmacro [help][dead][noexists]
+/petattack
+/castsequence reset=60/combat 毒蛇钉刺,奥术射击,自动射击,自动射击,自动射击,自动射击,自动射击,自动射击
+/cast !自动射击
+END
+VER 3 0000000001000008 "6" "INV_MISC_QUESTIONMARK"
+/castsequence reset=100 喂养宠物,追踪野兽
+END
+VER 3 0000000001000009 "7" "INV_MISC_QUESTIONMARK"
+/castsequence reset=100 [nochanneling]追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,追踪野兽,大块的硬面包
+END
+VER 3 000000000100000A "8" "INV_MISC_QUESTIONMARK"
+/施放 [pet,target=pet,nodead] 治疗宠物
+/施放 [pet,target=pet,dead] 复活宠物
+/施放 [nopet] 复活宠物
+END
+VER 3 0000000001000010 "BBStop" "136034"
+/petstay
+/cancelAura 野兽之眼
+END
+VER 3 000000000100000B "Buff'o'mat" "Ability_Druid_DemoralizingRoar"
+#showtooltip
+/bom update
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Lêl[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000100000C "仇恨分离" "132134"
+/targetlasttarget
+END
+VER 3 000000000100000F "图腾" "INV_MISC_QUESTIONMARK"
+/petattack
+/petattack [target=战栗图腾][target=图腾]
+/petattack [target=风怒图腾][target=图腾]
+/petattack [target=地缚图腾][target=图腾]
+/petattack [target=根基图腾][target=图腾]
+/petattack [target=灼热图腾][target=图腾]
+/petattack [target=法力之泉图腾][target=图腾]
+END
+VER 3 000000000100000E "射击爆发" "INV_MISC_QUESTIONMARK"
+/use 魔暴龙眼
+/stopcasting
+/cast 急速射击
+END
+VER 3 000000000100000D "雄鹰猎豹" "INV_MISC_QUESTIONMARK"
+/castsequence 雄鹰守护,猎豹守护
+END

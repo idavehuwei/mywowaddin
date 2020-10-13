@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AddOnList version="1.0" url="http://wowui.178.com/" purl="http://wowui.178.com/">
+    <AddOn displayName="[怀旧专用] GatherMate2" img="/data/wow/1216/ui_logo.jpg" info="ui/1216" name="[怀旧专用] GatherMate2" package="down/1216/14833/GatherMate2-1.45_.5-classic_.zip" update="2020-01-16" version="1.45.5-classic" />
+</AddOnList>

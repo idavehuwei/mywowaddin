@@ -1,0 +1,42 @@
+
+CTradeSkillDB = {
+	["Panel"] = "制皮",
+	["Bookmarks"] = {
+		["烹饪"] = {
+		},
+		["毒药"] = {
+		},
+		["制皮"] = {
+		},
+		["裁缝"] = {
+		},
+		["炼金术"] = {
+		},
+		["急救"] = {
+		},
+	},
+	["Tooltip"] = false,
+	["Unlock"] = false,
+	["Tabs"] = {
+		[818] = true,
+		[2259] = true,
+		[3811] = true,
+		[7924] = true,
+		[3273] = true,
+		[3413] = true,
+		[3274] = true,
+		[3102] = true,
+		[10846] = true,
+		[1804] = true,
+		[3908] = true,
+		[3104] = true,
+		[18260] = true,
+		[2550] = true,
+		[2108] = true,
+		[10662] = true,
+	},
+	["Level"] = true,
+	["OffsetY"] = 696.000061035156,
+	["OffsetX"] = 0,
+	["Size"] = 22,
+}

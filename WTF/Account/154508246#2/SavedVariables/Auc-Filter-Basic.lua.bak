@@ -1,0 +1,11 @@
+
+AucAdvancedFilterBasic_IgnoreList = {
+	["龙之召唤"] = {
+		["List"] = {
+		},
+	},
+	["法拉克斯"] = {
+		["List"] = {
+		},
+	},
+}

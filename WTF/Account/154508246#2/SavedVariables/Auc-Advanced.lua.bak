@@ -1,0 +1,36 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["util"] = {
+			["automagic"] = {
+				["SavedMailButtons"] = {
+				},
+			},
+		},
+	},
+	["version"] = 1,
+	["users.法拉克斯.秋天的栗子"] = "Default",
+}
+AucAdvancedData = {
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1588688647,
+	["KnownServerKeys"] = {
+		["龙之召唤"] = 1601528080,
+		["法拉克斯"] = 1588688658,
+	},
+	["KnownRealms"] = {
+		["龙之召唤"] = "龙之召唤",
+		["法拉克斯"] = "法拉克斯",
+	},
+}

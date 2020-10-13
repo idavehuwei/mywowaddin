@@ -1,0 +1,10 @@
+﻿## Interface: 11303
+## Title:BWL Tips - ZeroZone
+## Title-zhCN: BWL专用提示插件-零界
+## Notes: do the title.
+## Author: Aoikaze-无畏
+## Version: 1.5.5
+## DefaultState: enabled
+
+locale.lua
+Nefarian.lua

@@ -1,0 +1,19 @@
+VER 3 0000000001000006 "Buff'o'mat" "Ability_Druid_ChallangingRoar"
+#showtooltip
+/bom update
+/bom _checkforerror
+/cast [@player,nocombat]真言术：韧(等级 6)
+END
+VER 3 0000000001000004 "CB" "135864"
+CreateFrame("frame",'F')F:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")return function(t)c=InActiveBattlefield()and"SAY"or IsInRaid()and"RAID"or IsInGroup()and"PARTY"or"EMOTE"SendChatMessage(t,c)end,i and"{rt"..i.."}"or '',CombatLogGetCurrentEventInfo
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P1WM1WM1WM1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N部落少Big喬大王Sol[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Der[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000005 "复活" "135955"
+/y %T快从地上起来吧，地上怪凉的。
+/施放 复活术
+END

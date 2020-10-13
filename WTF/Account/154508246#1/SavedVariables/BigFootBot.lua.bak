@@ -1,0 +1,45 @@
+
+ItemSourceDB = {
+}
+ObjectLocationDB = {
+}
+CreatureLocationDB = {
+}
+CreatureDB = {
+}
+QuestDB = {
+}
+QuestCompleteDB = {
+}
+QuestEventDB = {
+}
+SkillSourceDB = {
+}
+BigFootBot_Version = {
+}
+BigFootBot_Info = nil
+PlayersDB = {
+	["五月二十七:龙之召唤"] = {
+		["race"] = 3,
+		["name"] = "五月二十七",
+		["level"] = 6,
+		["gender"] = 3,
+		["class"] = 1,
+		["server"] = "龙之召唤",
+	},
+}
+UtilDB = {
+	["M"] = {
+		["NumSysUnread"] = 0,
+		["MD5"] = "6400356608045604724472833622549549543",
+		["NumNormalRead"] = 11,
+		["NumSysRead"] = 0,
+		["NumNormalUnread"] = 7,
+	},
+}
+NPCMarkCollectionDB = {
+}
+BigFootBot_collectData = {
+}
+SpamChatDB = {
+}

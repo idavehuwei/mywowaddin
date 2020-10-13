@@ -1,0 +1,66 @@
+
+AucAdvancedConfig = {
+	["users.龙之召唤.Global"] = "Default",
+	["profile.Default"] = {
+		["configator.left"] = 367.232849121094,
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurDir"] = -1,
+				["columnsortcurSort"] = 6,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["ammailguiy"] = 97.3,
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "LEFT:LEFT:0.0:100.0",
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["configator.top"] = 625,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = 317.232849121094,
+			["configator.top"] = 650.00048828125,
+		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1573939749,
+	["KnownServerKeys"] = {
+		["龙之召唤"] = 1602602781,
+	},
+	["KnownRealms"] = {
+		["龙之召唤"] = "龙之召唤",
+	},
+}

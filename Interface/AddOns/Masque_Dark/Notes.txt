@@ -1,0 +1,14 @@
+Notes for Masque_Dark.
+
+This is actually three plug-ins for Masque in one folder. 
+
+They are :
+               Masque_Dark. Basically, a 2 pixel black skin with a highilght on the top and left side. There is also a dark "glow" (both inside and outside the button surround) around the "skin". It has a generic "WoW" backdrop for the empty buttons and a gray button for the empty slots on your action bars so you can tell at a glance that those buttons are, well, empty.
+
+             Masque_Dark-Alliance. This is a 2 pixel Alliance blue skin with a gold highlight on the top and left sides. It also has a dark "glow" (both inside and outside the button surround) around the "skin". It uses  a grayscale Alliance flag for the backdrop and uses the Masque_Dark skin for the empty slots on your action bars.
+
+            Masque_Dark-Horde. Basically the same as the Alliance skin, just with Horde red and gold on the "skin" and a Horde grayscale flag for the backdrop.
+
+I was originally going to release this as three different plug-ins, but it seems to make more sense to just roll all three into one and be done with it.
+
+Hope you enjoy it. If you don't, just delete it. 

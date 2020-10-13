@@ -1,0 +1,29 @@
+
+CTradeSkillDB = {
+	["Panel"] = "工程学",
+	["Bookmarks"] = {
+		["工程学"] = {
+		},
+		["采矿"] = {
+		},
+		["急救"] = {
+		},
+		["烹饪"] = {
+		},
+	},
+	["Tooltip"] = false,
+	["Unlock"] = false,
+	["Tabs"] = {
+		[18260] = true,
+		[10846] = true,
+		[12656] = true,
+		[818] = true,
+		[2656] = true,
+		[7924] = true,
+		[3413] = true,
+	},
+	["Level"] = true,
+	["OffsetY"] = 696.000061035156,
+	["OffsetX"] = 820.465576171875,
+	["Size"] = 22,
+}

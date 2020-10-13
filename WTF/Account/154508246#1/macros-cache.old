@@ -1,0 +1,95 @@
+VER 3 0000000000000005 "2" "132107"
+/G █████ 锣 █████
+/G ██□□{月亮} □ {三角}□□███
+/G █□□□眼 ↑ 眼□□□█
+/G █□{方块}眼↖ ↑ ↗眼{菱形}□█
+/G █□□←← 克 →→□□█
+/G █□{十字}眼↙ ↓ ↘眼{圆形}□█
+/G █□□□眼 ↓ 眼□□□█
+/G ██□□{骷髅} □ {星形}□□██
+/G  █████ 门 █████
+END
+VER 3 0000000000000003 "3" "132109"
+/stopmacro [combat]
+/目标 血
+/targetlastenemy
+END
+VER 3 0000000000000006 "4" "132109"
+/cleartarget [help][dead][noexists]
+/stopmacr [help][dead][noexists]
+/castsequence reset=30 烈焰震击(等级 1),灼热图腾(等级 1),烈焰震击(等级 1),烈焰震击(等级 1),烈焰震击(等级 1),烈焰震击(等级 1)
+END
+VER 3 0000000000000008 "5" "132104"
+/castsequence reset=75 风怒武器
+END
+VER 3 0000000000000007 "6" "132089"
+/petdefensive
+/cast [btn:2][nopet][target=pet,dead]召唤小鬼
+END
+VER 3 000000000000000E "7" "132223"
+#showtooltip
+/stopcasting
+/cast 治疗波
+END
+VER 3 000000000000000F "alaGearMan0" "132293"
+/run AGM_FUNC.takeoffAll()
+END
+VER 3 000000000000000C "alaGearMan1" "135358"
+/click alaGearMan_SecureQuick1
+END
+VER 3 000000000000000D "alaGearMan2" "132341"
+/click alaGearMan_SecureQuick2
+END
+VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000011 "range" "132150"
+/range 10
+END
+VER 3 0000000000000001 "target" "132147"
+/target 黑鳍智者
+/target 加
+/target 森林漫游者
+/script SetRaidTarget("target",7)
+END
+VER 3 000000000000000A "target-杰克" "135946"
+/target 依
+/target 纯净
+/target 变异尖牙风蛇
+/target XT
+/target 掘地
+/target 矿工哈克特
+/target 杰德
+/target 泰
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000002 "target2" "132112"
+/target 森林
+/target 木喉萨满祭司
+/script SetRaidTarget("target",8)
+END
+VER 3 0000000000000013 "枪药水" "132117"
+/tar 安多洛夫中将
+/script local a,b="特效法力药水"; for i=1,6 do b=GetMerchantItemInfo(i) if b==a then BuyMerchantItem(i,1) end end
+END
+VER 3 0000000000000010 "治疗" "132172"
+/cast [help][target=targettarget,help]强效治疗术(等级 3)
+END
+VER 3 0000000000000012 "血量" "132094"
+/run local t,n,h,m=IsAltKeyDown()and "targettarget"or"target"n,h,m=UnitName(t),UnitHealth(t),UnitHealthMax(t) if n then SendChatMessage("姓名:"..n.."，血量"..h.."("..format("%.1f",h/m*100).."%)","raid")end 
+END
+VER 3 0000000000000004 "触须" "132136"
+/RA █████ 锣 █████
+/RA ██□□{月亮} □ {三角}□□███
+/RA █□□□眼 ↑ 眼□□□█
+/RA █□{方块}眼↖ ↑ ↗眼{菱形}□█
+/RA █□□←← 克 →→□□█
+/RA █□{十字}眼↙ ↓ ↘眼{圆形}□█
+/RA █□□□眼 ↓ 眼□□□█
+/RA ██□□{骷髅} □ {星形}□□██
+/RA █████ 门 █████
+END
+VER 3 000000000000000B "鱼饵" "136190"
+/脚本 local a,i,j,l={"新鲜的长嘴泥鳅","新鲜的美味小鱼","新鲜的刺须鲶鱼"}for i=1,#a do for j=1,114 do l=GetContainerItemLink(j/23,j%23)if l and l:find(a[i])then PickupContainerItem(j/23,j%23)DeleteCursorItem()end end end
+/cast 钓鱼(中级)
+END
